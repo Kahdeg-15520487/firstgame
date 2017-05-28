@@ -18,6 +18,7 @@ document.addEventListener(startEvent,function() {
     }
 
     var platforms;
+	var player;
 
 	function create() {
 
