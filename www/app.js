@@ -44,13 +44,13 @@ document.addEventListener(startEvent,function() {
 		ground.body.immovable = true;
 
 		//  Now let's create two ledges
-		var ledge = platforms.create(400, 200, 'ground');
+		//var ledge = platforms.create(400, 200, 'ground');
 
-		ledge.body.immovable = true;
+		//ledge.body.immovable = true;
 
-		ledge = platforms.create(-100, 200, 'ground');
+		//ledge = platforms.create(-100, 200, 'ground');
 
-		ledge.body.immovable = true;
+		//ledge.body.immovable = true;
 
 		// The player and its settings
 		player = game.add.sprite(32, game.world.height - 150, 'dude');
